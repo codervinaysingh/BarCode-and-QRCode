@@ -1,0 +1,24 @@
+﻿@model BarcodeGenrater.Models.Response
+@{
+     ViewData["Title"] ="Home Page";
+}
+@using (Html.BeginForm("Index", "Home",FormMethod.Post))
+{
+    <input type="text" name="inputValue" />
+    <input type="submit" value="Generate Barcode" />
+}
+<br />
+ 
+@if (Model != null)
+{
+    @if (@Model.Data == null)
+    {
+        <label style="color:red">Bar Code use Integer Value</label>
+    }else{
+        <img alt="Bar Code" src="@Model.Data" />
+    }
+    
+    <img height="200px" width="200px" alt="QR Code"  src="@Model.QrCode"/>
+
+    
+}

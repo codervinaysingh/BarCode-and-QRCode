@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2dMjm6apmQqwjTuPVvBK1KorsI8dqbL4FEfwpdhZHdgsti5/adJ8Z1ZwQh6t3epLbJR8O7vyNmoqKIqnET4Hw==",
+  "success": true,
+  "projectFilePath": "D:\\vinaysingh\\BarcodeGenrater\\BarcodeGenrater\\BarcodeGenrater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\barcodelib\\2.4.0\\barcodelib.2.4.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\qrcoder\\1.4.1\\qrcoder.1.4.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
