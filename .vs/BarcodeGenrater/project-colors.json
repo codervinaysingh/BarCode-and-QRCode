@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3122ee64-abca-4736-960b-b04ffa7eb1bb": {
+      "ProjectGuid": "3122ee64-abca-4736-960b-b04ffa7eb1bb",
+      "DisplayName": "BarcodeGenrater",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

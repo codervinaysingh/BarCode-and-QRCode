@@ -27,16 +27,17 @@ namespace BarcodeGenrater.Controllers
             Response response = new Response();
             response.QrCode = _qRCodeGenrater.CreateQRCode(inputValue);
             bool isNumeric = decimal.TryParse(inputValue,out decimal result);
-            if (isNumeric)
-            {                           
-                response.Data = _qRCodeGenrater.CreateBarCode(inputValue);
-            }
-            else
-            {
-                response.Status = "Only Integer Value";
+            response.Data = _qRCodeGenrater.CreateBarCode(inputValue.ToUpper());
+            //if (isNumeric)
+            //{                           
+            //    response.Data = _qRCodeGenrater.CreateBarCode(inputValue);
+            //}
+            //else
+            //{
+            //    response.Status = "Only Integer Value";
                 
-            }
-            return View(response);
+            //}
+                return View(response);
 
 
         }
